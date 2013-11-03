@@ -1,0 +1,43 @@
+/** 
+ * 	Author: Christoph Kepler, Michael Schneider
+ * 	Date: 20.10.2013
+ * 	Print CSS
+ */
+
+/** 	
+ * 	Some general settings
+ */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 13pt;
+}
+#nav, #logo, .backlink {
+	display: none;
+}
+.thead {
+	width: 200pt;
+	vertical-align: top;
+}
+
+#header {
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 5pt;
+}
+
+h1, h2, h3, p, ul, li {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.6em;
+}
